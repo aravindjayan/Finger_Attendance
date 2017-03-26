@@ -127,9 +127,9 @@ uint8_t getFingerprintID() {
 
 void setup()  
 {
-  pinMode(8,OUTPUT);
-  pinMode(9,OUTPUT);
-  pinMode(10,OUTPUT);
+  pinMode(8,OUTPUT);     //RED LED
+  pinMode(9,OUTPUT);     //ORANGE LED
+  pinMode(10,OUTPUT);    //GREEN LED
   while (!Serial);
   Serial.begin(9600);
   Serial.println("FISAT® FingerPrint Attendance System v1.0");
