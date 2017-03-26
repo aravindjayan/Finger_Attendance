@@ -155,9 +155,4 @@ void loop()                     // run over and over again
   getFingerprintID();
   
   delay(50);            //don't ned to run this at full speed.
-   }
-   
-
-
-
-
+}
